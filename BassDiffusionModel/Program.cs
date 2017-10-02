@@ -135,7 +135,7 @@ namespace BassModel
                         double.TryParse(Console.ReadLine(), out finalTime[_setNumber]);
                         break;
                     case 8:
-                        Console.WriteLine("Wybierz zbiór danych przedstawiony w dokumencie informacyjnym dot. programu:\n1. Pierwszy\n2. Drugi\n3. Trzeci\n4. Własny");
+                        Console.WriteLine("Wybierz zbiór danych. 1, 2, 3 lub 4, dane zostaną wyświetlone po wybraniu.");
                         int.TryParse(Console.ReadLine(), out _setNumber);
                         _setNumber -= 1;
                         break;
